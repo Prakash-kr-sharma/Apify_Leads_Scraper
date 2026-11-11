@@ -1,0 +1,24 @@
+
+{
+  "title": "India Building Materials Lead Finder",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrls": {
+      "title": "Company Website URLs",
+      "type": "array",
+      "description": "Enter the company website URLs you want to collect public contact details from.",
+      "editor": "requestListSources"
+    },
+    "maxRequestsPerCrawl": {
+      "title": "Maximum Pages to Crawl",
+      "type": "integer",
+      "description": "Maximum number of website pages to visit during this run.",
+      "editor": "number",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 500
+    }
+  },
+  "required": ["startUrls"]
+}
