@@ -1,0 +1,17 @@
+
+{
+  "name": "india-building-materials-lead-finder",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "B2B lead generation for building materials businesses across India",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.4.0",
+    "crawlee": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
