@@ -1,0 +1,11 @@
+
+{
+  "actorSpecification": 1,
+  "name": "india-building-materials-lead-finder",
+  "title": "India Building Materials Lead Finder",
+  "description": "Collects publicly available business contact details from supplied company websites.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "../Dockerfile",
+  "inputSchema": "./input_schema.json"
+}
