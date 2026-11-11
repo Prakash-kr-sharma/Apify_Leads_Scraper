@@ -90,13 +90,13 @@ const crawler = new CheerioCrawler({
 
         // Find contact and about pages
         await request.enqueueLinks({
-            selector: 'a[href*="contact"], a[href*="about"]',
-            transformRequestFunction: (req) => {
-                if (req.url.startsWith('http')) return req;
-                return null;
-            },
-            strategy: 'same-domain'
-        });
+    selector: 'a[href*="contact"], a[href*="about"]',
+    transformRequestFunction: (req) => {
+        if (req.url.startsWith('http')) return req;
+        return null;
+    },
+    strategy: 'same-domain'
+});
 
         log.info(`Processed: ${website}`);
     },
